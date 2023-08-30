@@ -15,7 +15,7 @@ public:
 
     void Set_next(Money* next_money) { next = next_money; }
     void Withdraw(int amount);
-    virtual ~Money();
+    ~Money();
 };
 
 class ATM_Money
